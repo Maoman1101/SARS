@@ -95,6 +95,48 @@ if data.raw.item["lithium"] then
 	}, 1, "chemistry"))
 end
 
+if data.raw.item["spoilage"] then
+	local recipe = make_alt_recipe("plastic-bar", "microplastic-filtering", { 
+		{type = "item", name = "raw-fish", amount = 10} 
+	}, { 
+		{type = "item", name = "plastic-bar", amount = 1}, 
+		{type = "item", name = "spoilage", amount = 10} 
+	}, 5.0, "chemistry")
+
+	-- Assign icon manually to avoid crash from missing spoilage icon
+	recipe.icon = data.raw.item["plastic-bar"].icon or "__base__/graphics/icons/plastic-bar.png"
+	recipe.icon_size = data.raw.item["plastic-bar"].icon_size or 64
+	if recipe.auto_recycle == false then return end
+	table.insert(recipes, recipe)
+end
+
+if data.raw.item["sand-ore"] then
+  table.insert(recipes, make_alt_recipe("silicon-wafer", "trace-silicon-filtering", {
+    {type = "item", name = "stone", amount = 25},
+    {type = "item", name = "sand-ore", amount = 1}
+  }, {
+    {type = "item", name = "silicon-wafer", amount = 1}
+  }, 1.0))
+end
+
+if data.raw.item["meaty-chunks"] then
+  table.insert(recipes, make_alt_recipe("heavy-oil", "biodiesel", {
+    {type = "item", name = "meaty-chunks", amount = 10},
+    {type = "fluid", name = "water", amount = 10},
+    {type = "item", name = "coal", amount = 1}
+  }, {
+    {type = "fluid", name = "heavy-oil", amount = 10}
+  }, 3.0))
+end
+
+if data.raw.item["spoilage"] then
+  table.insert(recipes, make_alt_recipe("coal", "biocoal", {
+    {type = "item", name = "spoilage", amount = 5}
+  }, {
+    {type = "item", name = "coal", amount = 1}
+  }, 2.0))
+end
+
 if #recipes > 0 then
   data:extend(recipes)
 end

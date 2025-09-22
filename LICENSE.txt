@@ -1,6 +1,6 @@
 License Maoman v1.0
 --------------------------------------------------------------------------------------------------
-Mod created by BinbinHfr, now maintained by Maoman (Factorio Forum, Mod Portal, Discord)
+Mod created by Maoman (Factorio Forum, Mod Portal, Discord)
 --------------------------------------------------------------------------------------------------
 License :
 - you are free to use this mod with Factorio.
@@ -10,7 +10,7 @@ License :
 - you may not modify this mod without my explicit permission except for personal use.
 - if you modify this mod, you may not distribute the modified version nor release it to the public.
 
-- in case this mod seems abandonned and not maintained anymore, and if I do not respond on Discord
+- in case this mod seems abandoned and not maintained anymore, and if I do not respond on Discord
   within one week, you may then choose to maintain this mod, modify it and distribute it under a 
   separate release, giving clear credits to the original author.
  

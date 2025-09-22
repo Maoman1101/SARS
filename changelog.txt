@@ -1,67 +1,159 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.3.1
-Date: 07. 13. 2025
+Version: 1.4.8
+Date: 2025-09-22
 
-  Balance
+  Bugfixes:
+    Fixed "electrolysis fuel" recipe being impossible to craft
+  Changes:
+    Removed several recipes from hand-crafting, so you can't hand-craft some more advanced items
+	
+---------------------------------------------------------------------------------------------------
+Version: 1.4.6
+Date: 2025-08-29
+
+  Changes:
+    - Updated utils.lua
+  Modding:
+    - Hardened mod against certain interactions causing recipe loss on config changed.
+	
+---------------------------------------------------------------------------------------------------
+Version: 1.4.5
+Date: 2025-07-27
+
+  Info:
+    - Updated License
+	
+---------------------------------------------------------------------------------------------------
+Version: 1.4.4
+Date: 2025-07-27
+
+  Changes:
+    - Swapped the category icon from "SA RS" to Satisfactory's Hard Drive icon so it doesn't stick out so badly in the crafting screen.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.4.3
+Date: 2025-07-27
+
+  Bugfixes:
+    - Nitroglycerin and C4 recipes were supposed to make 2 and 3 explosives, not 1 and 2. 
+
+---------------------------------------------------------------------------------------------------
+Version: 1.4.2
+Date: 2025-07-26
+
+  Info:
+    - Changelog now works with in-game parser again
+  Minor Features:
+    - Added a console command for unlocking specific recipes for debugging purposes.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 2025-07-26
+
+  Locale:
+    - Forgot the localized recipe names
+
+---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2025-07-26
+
+  Features:
+    - Added Trace Silicon Filtering, Biodiesel, Biocoal, Charcoal, Plastic Circuits, Nitroglycerin, Plastic C4, Lightweight Robot Frame, Dry Electric Engine, Water-Based Lubricant, Quick and Dirty Structure, Trace Uranium Filtering, Electrolysis Fuel.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.5
+Date: 2025-07-24
+
+  Balance:
+    - Carbonized Steel is not so ridiculously slow
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.4
+Date: 2025-07-23
+
+  Balance:
+    - Rebalanced almost all recipe crafting times to be generally much slower
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.3
+Date: 2025-07-13
+
+  Bugfixes:
+    - Possible fix for recycling plastic giving MANY fish.
+  Minor Features:
+    - Added reset all recipes hotkey
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 2025-07-13
+
+  Bugfixes:
+    - Fixed crash with microplastic filtering and no space age installed.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 2025-07-13
+
+  Balance:
     - Smart battery is much slower to craft now
-	- Microplastic Filtering is slower, gives spoilage now, and was moved to the chemical plant
+    - Microplastic Filtering is slower, gives spoilage now, and was moved to the chemical plant
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.0
-Date: 07. 13. 2025
+Date: 2025-07-13
 
-  Bugfixes
+  Bugfixes:
     - Recipes now save and stay saved (for real this time)
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.4
-Date: 07. 13. 2025
+Date: 2025-07-13
 
-  Bugfixes
+  Bugfixes:
     - Recipes unlocked with the hotkey now save with your save like they should
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.3
-Date: 07. 13. 2025
+Date: 2025-07-13
 
-  Balance
+  Balance:
     - Adjusted default values for the settings. Unlocks were happening too quick in late game.
-  Info
+  Info:
     - Fixed Changelog
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.2
-Date: 07. 12. 2025
+Date: 2025-07-12
 
-  Minor Features
+  Minor Features:
     - Can now press ctrl+alt+U (customizable) to manually unlock a recipe at random
-  Balance
+  Balance:
     - Iron Cable produces slightly less cable than the normal recipe now
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
-Date: 07. 11. 2025
+Date: 2025-07-11
 
-  Compatibility
+  Compatibility:
     - Should be compatible with no Space Age installed now.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
-Date: 07. 11. 2025
+Date: 2025-07-11
 
-  Major Features
+  Major Features:
     - Unlocked recipes actually save with your save, y'know, like they always should have. Oops.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
-Date: 07. 11. 2025
+Date: 2025-07-11
 
   Balance:
     - Ultra-Processed Concrete is much slower now, as it should be.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
-Date: 07. 10. 2025
+Date: 2025-07-10
 
   Features:
     - Added Lightweight Engine, Cheap Circuitry, Optical Circuitry, Electric Rotor, Cheap Quality Engine, Diesel Engines, Crude Plastic, Microplastic Filtering, Lithium Cell, Inefficient Battery, Smart Battery, Etched Circuits, Etched Adv. Circuits
@@ -70,7 +162,7 @@ Date: 07. 10. 2025
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 07. 08. 2025
+Date: 2025-07-08
 
   Features:
     - Initial Release with Pure Iron, Iron Alloy, Inferior Iron Plate, Leeched Iron Plate, Pure Copper, Copper Alloy, Crappy Copper Plate, Leeched Copper Plate, Carbonized Steel, Steel Alloy, Steel Rod, Iron Cable, Steel Cable, Dry Concrete, UltraProcessed Concrete, Cast-Iron Gear, Alloyed Gear, Fine Concrete  
